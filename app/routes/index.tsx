@@ -63,6 +63,7 @@ export default function Index() {
       <div 
         className='
           w-full px-10 pb-10 max-w-3xl min-w-fit 
+          flex flex-col items-center
         '
       >
         <div className='font-title my-4 text-white text-2xl text-center w-full '>
@@ -229,6 +230,14 @@ export default function Index() {
               R$ {total},00
             </span>
           </div>
+        </div>
+
+        <div className='font-title text-white w-full mt-10 px-8 max-w-xl'>
+          <h1>
+            Agora que você já viu quanto vai ficar o seu serviço, agende a 
+            entrega do equipamento com o nosso tecnico através do  
+            <a className='text-primary' href='https://wa.me/554888602578'> WhatsApp</a>.
+          </h1>
         </div>
        
       </div>

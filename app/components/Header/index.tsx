@@ -14,12 +14,12 @@ export default function Index() {
         "/>
       </button>
       <div className='flex flex-row space-x-8'>
-        <button className='hover:-translate-y-1 hover:scale-110'>
+        <a href='https://www.instagram.com/gabsantos.tech/' target="_blank" className='hover:-translate-y-1 hover:scale-110'>
           <FaInstagram className='h-8 w-8 text-bg'/>
-        </button>    
-        <button className='hover:-translate-y-1 hover:scale-110'>
+        </a>    
+        <a href='https://wa.me/554888602578' className='hover:-translate-y-1 hover:scale-110'>
           <FaWhatsapp className='h-8 w-8 text-bg'/>
-        </button>
+        </a>
       </div>
     </div>
   );
