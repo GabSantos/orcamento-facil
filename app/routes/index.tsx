@@ -74,9 +74,16 @@ export default function Index() {
           w-full h-auto p-4 my-4 rounded border-2 border-primary-oppacity
         '>
           <div className='flex justify-between my-2 border-b-2 border-b-primary-oppacity py-2'>
-            <span className='text-white font-title text-xl'>
-              Limpeza interna *
-            </span>
+            
+            <div className='w-full mr-4 flex items-center justify-between'>
+              <span className='text-white font-title text-xl'>
+                Limpeza interna *
+              </span>
+
+              <span className='text-white font-title text-md'>
+                R$120,00
+              </span>
+            </div>
             <Switch
               checked={limpeza}
               onChange={setLimpeza}
@@ -97,9 +104,15 @@ export default function Index() {
           </div>
 
           <div className='flex justify-between my-2 border-b-2 border-b-primary-oppacity py-2'>
-            <span className='text-white font-title text-xl'>
-              Upgrade
-            </span>
+            <div className='w-full mr-4 flex items-center justify-between'>
+              <span className='text-white font-title text-xl'>
+                Upgrade
+              </span>
+
+              <span className='text-white font-title text-md'>
+                R$120,00
+              </span>
+            </div>
             <Switch
               checked={upgrade}
               onChange={setUpgrade}
@@ -120,9 +133,15 @@ export default function Index() {
           </div>
           
           <div className='flex justify-between my-2 border-b-2 border-b-primary-oppacity py-2'>
-            <span className='text-white font-title text-xl'>
-              Montagem de computador
-            </span>
+            <div className='w-full mr-4 flex items-center justify-between'>
+              <span className='text-white font-title text-xl'>
+                Montagem de computador
+              </span>
+
+              <span className='text-white font-title text-md'>
+                R$240,00
+              </span>
+            </div>
             <Switch
               checked={montagem}
               onChange={setMontagem}
@@ -143,9 +162,16 @@ export default function Index() {
           </div>
 
           <div className='flex justify-between my-2 border-b-2 border-b-primary-oppacity py-2'>
-            <span className='text-white font-title text-xl'>
-              Formatação sem Backup
-            </span>
+            <div className='w-full mr-4 flex items-center justify-between'>
+              <span className='text-white font-title text-xl'>
+                Formatação sem Backup
+              </span>
+
+              <span className='text-white font-title text-md'>
+                R$60,00
+              </span>
+            </div>
+
             <Switch
               checked={formatS}
               onChange={handleFormatS}
@@ -166,9 +192,15 @@ export default function Index() {
           </div>
 
           <div className='flex justify-between my-2 border-b-2 border-b-primary-oppacity py-2'>
-            <span className='text-white font-title text-xl'>
-              Formatação com Backup
-            </span>
+            <div className='w-full mr-4 flex items-center justify-between'>
+              <span className='text-white font-title text-xl'>
+                Formatação com Backup
+              </span>
+
+              <span className='text-white font-title text-md'>
+                R$80,00
+              </span>
+            </div>
             <Switch
               checked={formatC}
               onChange={handleFormatC}
@@ -189,9 +221,16 @@ export default function Index() {
           </div>
 
           <div className='flex justify-between my-2 py-2'>
-            <span className='text-white font-title text-xl'>
-              Avaliação
-            </span>
+            <div className='w-full mr-4 flex items-center justify-between'>
+              <span className='text-white font-title text-xl'>
+                Avaliação
+              </span>
+
+              <span className='text-white font-title text-md'>
+                GRÁTIS
+              </span>
+            </div>
+
             <Switch
               checked={avaliacao}
               onChange={setAvaliacao}
